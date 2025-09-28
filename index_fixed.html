@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Devansh Damani | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9fafb;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 0.5rem 0;
+      color: #555;
+    }
+    .buttons a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.6rem 1.2rem;
+      background: #0B3D91;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.2s;
+    }
+    .buttons a:hover {
+      background: #092d6a;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+      color: #0B3D91;
+    }
+    .card p {
+      margin: 0.5rem 0;
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.4rem 1rem;
+      background: #0B3D91;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 0.9rem;
+    }
+    .card a:hover {
+      background: #092d6a;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Devansh Damani</h1>
+    <p>Computer Engineer | Embedded Systems | Software Development</p>
+    <div class="buttons">
+      <a href="Devansh_Damani_Resume_Revised.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+      <a href="https://www.linkedin.com/in/devansh-damani/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://github.com/devanshdamani" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+  </header>
+
+  <section class="projects">
+    <div class="card">
+      <h2>Autonomous Sailboat</h2>
+      <p>Designed PCB &amp; C++ microcontroller code for autonomous navigation using GPS, wind sensors &amp; telemetry.</p>
+      <p><em>Tech:</em> C++, STM32, KiCad, UART, GPS</p>
+      <a href="https://github.com/devanshdamani/autonomous-sailboat" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+    </div>
+
+    <div class="card">
+      <h2>Linux-Based Operating System</h2>
+      <p>Developed 32-bit x86 kernel supporting paging, file systems &amp; multi-terminal shell.</p>
+      <p><em>Tech:</em> C, x86 Assembly, OS Design</p>
+      <a href="https://github.com/devanshdamani/linux-os" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+    </div>
+
+    <div class="card">
+      <h2>Color-Detecting Robot</h2>
+      <p>Built robotic arm with ROS + Python to identify &amp; sort colored blocks using computer vision.</p>
+      <p><em>Tech:</em> Python, ROS, OpenCV</p>
+      <a href="https://github.com/devanshdamani/color-robot" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+    </div>
+
+    <div class="card">
+      <h2>Digital Piano Synthesizer (FPGA)</h2>
+      <p>Programmed FPGA-based piano in SystemVerilog with USB keyboard input &amp; audio output.</p>
+      <p><em>Tech:</em> SystemVerilog, FPGA, UART, I2S</p>
+      <a href="https://github.com/devanshdamani/digital-piano" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Devansh Damani</p>
+  </footer>
+</body>
+</html>
